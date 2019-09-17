@@ -41,7 +41,7 @@ public abstract class Address {
 		this.addressType = addressType;
 	}
 
-	public String address() {
+	public String address() throws Exception {
 		return "Base Address : "+ this.addressType;
 	}
 	

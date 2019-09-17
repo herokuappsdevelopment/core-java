@@ -22,7 +22,7 @@ public class CurrentAddress extends Address {
 	}
 
 	@Override
-	public String address() {		
+	public String address() throws Exception {		
 		return "C R " +addressType;
 	}
 	

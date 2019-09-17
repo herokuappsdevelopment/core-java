@@ -6,7 +6,7 @@ import com.isn.object.model.PermanentAddress;
 
 public class OveridingExample {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		
 		Address addr = new CurrentAddress();	
 		addr.setAddressLine1("hyd1");
